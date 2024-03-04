@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.nav-title{
+    font-family: Space Mono;
+font-size: 30px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: black;
+}
+.nav-text{
+    font-family: Space Mono;
+font-size: 15px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: 
+#939CAA;
+}
+.nav-btn{
+    padding: 10px 27px;
+    border-radius: 6px;
+    background-color: 
+    #FCB72B;
+    color: white;
+    border: none;
+    font-family: Space Mono;
+font-size: 15px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.nav-btn:hover{
+    color: #FCB72B;
+    background-color: white;
+    border: 1px solid #FCB72B;
+}
+.nav .container-fluit{
+   
+    padding-top: 15px;
+    background-color: white;
+    padding: 11px 0;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.container-fluit .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 13px;
+   
+}
+.nav-left{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.nav-text:hover{
+    color: #FCB72B;
+}
+.nav-title:hover{
+    color: #FCB72B;
+}
+
+.box-fluid{
+    width:100vb;
+    padding-top: 100px;
+    position: relative;
+    
+}
+.box-title{
+    font-family: Space Mono;
+font-size: 50px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: -2.5px;
+text-align: left;
+color: #ffffff;
+left: 22%;
+position: absolute;
+top: 52%;
+}
+.box-title:hover{
+    color: #FCB72B;
+}
+.card-title{
+    
+    font-family: Space Mono;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+   color: #495567;  
+   width: 260px;  
+   word-spacing: 8px;
+}
+.card-text{
+    font-family: Lexend Deca;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: 
+#939CAA;
+padding: 13px 0;
+width: 370px;
+padding-bottom: 18px;
+}
+
+.card{
+    padding-top: 50px;
+}
+.card .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.card-img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.card-pic{
+    position: absolute;
+    left: 49.5%;
+    top:83% ;
+
+}
+.card-right{
+    display: flex;
+    align-items: center;
+}
+.card{
+    padding-bottom: 100px;
+    background-image: url(.//imge/Mask\ \(6\).png);
+    background-repeat: no-repeat;
+    background-size:calc(80px);
+    background-position:top 55% left 100%;
+    padding-top: 180px;
+}
+.wrap-left{
+display: flex;
+}
+.wrap-img{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    position: relative;
+}
+.wrap-pic{
+    position: absolute;
+left: 0;
+}
+.wrap-img{
+    left: 10%;
+}
+.wrap{
+    padding-top: 70px;
+    padding-bottom: 70px;
+ 
+}
+.wrap-picture{
+    position: absolute;
+    left: 0%;
+    height: 280px;
+}
+.wrap-title{
+    font-family: Space Mono;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2.142857074737549px;
+text-align: left;
+color: 
+#495567;
+}
+.wrap-text{
+    font-family: Lexend Deca;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color:
+#939CAA ;
+padding-top: 12px;
+}
+.wrap-right{
+    width: 320px;
+
+}
+.wrap-inner{
+ display: flex;
+ justify-content: space-between;
+ width: 1140px;
+ margin: 0 auto;
+ align-items: center;
+}
+.wrapper-title{
+    font-family: Space Mono;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2.142857074737549px;
+text-align: center;
+color: 
+#495567;
+}
+.wrapper-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 73px;
+}
+.wrapper-list{
+    list-style: none;
+    display: flex;
+}
+.wrapper-img{
+    border-radius: 50%;
+   position: relative;
+}
+.wrapper-pic{
+    position: absolute;
+    left: 15.7%;
+    top: 1620px
+}
+.wrapper-picture{
+    border-radius: 50%;
+    position: relative;
+}
+.wrapper-icon{
+    position: absolute;
+    top: 1620px;
+    left:46% ;
+}
+.wrapper-imge{
+    position: relative;
+}
+.wrapper-pics{
+    position: absolute;
+    top: 1620px;
+    left: 77%;
+}
+.wrapper{
+    padding-bottom: 140px;
+}
+.wrapper-subtitle{
+    font-family: Space Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: -1.0714285373687744px;
+text-align: center;
+color: 
+#495567;
+}
+.wrapper-text{
+    font-family: Lexend Deca;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: center;
+color: #939CAA;
+padding-top: 12px;
+}
+.wrapper-in{
+    width: 300px;
+}
+.wrapper-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+.section-title{
+    font-family: Space Mono;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2.142857074737549px;
+text-align: center;
+color: #495567;
+padding-bottom: 30px;
+}
+.section-subtitle{
+    font-family: Space Mono;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -1.7857142686843872px;
+text-align: left;
+color: #495567;
+}
+.section-name{
+    font-family: Space Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: -1.0714285373687744px;
+text-align: left;
+color:#495567;
+}
+.section-text{
+    font-family: Lexend Deca;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: #939CAA;
+width: 490px;
+padding: 10px 0;
+}
+.section-subtext{
+    font-family: Space Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: -1.0714285373687744px;
+text-align: left;
+color: #495567;
+
+background-color: #F2F5F9;
+margin: 10px 0;
+padding: 11px 12px;
+}
+.section-inner{
+    display: flex;
+   gap: 280px;
+   padding-bottom: 13px;
+}
+.section-inners{
+    display: flex;
+   gap: 299px;
+   padding-bottom: 13px;
+}
+.section-right{
+    padding-top: 15px;
+}
+.section-in{
+    background-color: #F2F5F9;
+    padding: 11px 12px;
+}
+.section{
+    padding-bottom: 70px;
+}
+.footer .container{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer{
+    background-image: url(.//imge/Mask\ \(5\).png);
+}
+.wrap-img{
+    width: 100%;
+}
+.footer-right{
+    display: flex;
+    gap: 10px;
+}
+.footer-title{
+    color: white;
+    font-family: Space Mono;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2.142857074737549px;
+text-align: left;
+
+}
+.footer-title:hover{
+    color: #FCB72B;
+}
+.main-title{
+    font-family: Space Mono;
+font-size: 30px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: rgb(255, 255, 255);
+}
+.main-text{
+    font-family: Space Mono;
+font-size: 15px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: 
+#939CAA;
+}
+.main-btn{
+    padding: 10px 27px;
+    border-radius: 6px;
+    background-color: 
+    #FCB72B;
+    color: white;
+    border: none;
+    font-family: Space Mono;
+font-size: 15px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.main-btn:hover{
+    color: #FCB72B;
+    background-color: white;
+    border: 1px solid #FCB72B;
+}
+.main .main-fluit{
+   
+    padding-top: 15px;
+    background-color: white;
+    padding: 11px 0;
+    background-color: 
+    #333A44;
+    width: 100%;
+ 
+}
+
+.main-fluit .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 13px;
+   
+}
+.main-left{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.main-text:hover{
+    color: #FCB72B;
+}
+.main-title:hover{
+    color: #FCB72B;
+}
+.main-right{
+    display: flex;
+    gap: 10px;
+}
+.main-img{
+    transition: 0.3s;
+    opacity: 1;
+}
+.main-img:hover{
+    opacity: 0.4;
+}
+.main-pic{
+    transition: 0.3s;
+    opacity: 1;
+}
+.main-pic:hover{
+    opacity: 0.4;
+}
+.main-picture{
+    transition: 0.3s;
+    opacity: 1;
+}
+.main-picture:hover{
+    opacity: 0.4;
+}
+.footer-img{
+    transition: 0.5s;
+}
+.footer-img:hover{
+    transform: scale(0.5);
+}
+.footer-pic{
+    transition: 0.5s;
+}
+.footer-pic:hover{
+    transform: scale(0.5);
+}
